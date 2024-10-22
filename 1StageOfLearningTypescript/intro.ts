@@ -124,6 +124,60 @@
 // seatAllotment = "window"
 
 
+///.......................tuple.............
+
+// const user: (string | number)[] = [1, 'ankit'];
+
+// let user: [string, number, boolean];
+// user = ['ankit', 12, true]
+
+
+
+//.......................enums........................
+
+// enum SeatChoice {
+//     AISLE,
+//     MIDDLE,
+//     WINDOW,
+//     FOURTH
+// };
+
+// const hcSeat = SeatChoice.WINDOW
+
+
+
+///.....................interface...................
+
+// interface User {
+//     readonly DbId: number,
+//     email: string,
+//     userId: number,
+//     googleId?: string
+//     startTrail: () => string
+//     getCoupon(couponname: string, value: number): number
+// };
+
+// interface User {
+//     githubToken: string
+// }
+
+// interface Admin extends User {
+//     role: 'admin' | 'ta' | 'learner'
+// }
+
+// const ankit: Admin = {DbId: 12, email: 'ankit@gmail.com', userId: 12, githubToken: 'git123', role: 'admin',
+//     startTrail: () => {
+//         return 'Trail started'
+//     },
+//     getCoupon: (couponname: 'ankit', val: 10) => {
+//         return 10
+//     }
+// }
+
+// ankit.email = 'yadav@gmail.com'
+// ankit.DbId = 1
+
+
 
 
 export {}
