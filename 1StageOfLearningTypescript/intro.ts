@@ -112,12 +112,15 @@
 // getDbId("ankit")
 
 
-const data: number[] = [1,2,3]
-const data2: string[] = ["1", "2","3"]
-const data3: (string | number | boolean)[] = ["1", "2", 3, true]
+// const data: number[] = [1,2,3]
+// const data2: string[] = ["1", "2","3"]
+// const data3: (string | number | boolean)[] = ["1", "2", 3, true]
 
-let seatAllotment: "aisle" | "middle" | "window"
-seatAllotment = "aisle",
-seatAllotment = "window"
+// let seatAllotment: "aisle" | "middle" | "window"
+// seatAllotment = "aisle",
+// seatAllotment = "window"
+
+
+
 
 export {}
